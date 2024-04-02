@@ -1,4 +1,6 @@
-import os, time
+import os
+import time
+
 
 # Funções de exibição
 def show_options():
@@ -75,10 +77,10 @@ while (option):
             show_type_options()
             type_option = input('Escolha uma opção: ')
             os.system('clear')
-            match (int(type_option)):                    
-                 # Aprimorar int para checagem de valores válidos
+            match (int(type_option)):
+                # Aprimorar int para checagem de valores válidos
                 case 1:
-                    value = input('Digite um valor inteiro: ')
+                    value = int(input('Digite um valor inteiro: '))
                     if value.isnumeric():
                         print('O valor é do tipo:', type(value))
                     else:

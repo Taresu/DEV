@@ -1,10 +1,9 @@
+name = input('Digite seu nome: ')
+age = input('Digite sua idade: ')
+weight = input('Digite o seu peso: ')
 
-nome = input("Digite seu nome: ")
-idade = input("Digite sua idade: ")
-peso = input("Digite o seu peso: ")
-
-print("\n")
-print("Nome: ", nome)
-print("Idade: ", idade) 
-print("Peso: ", peso)
-
+print('\n')
+print('Nome: ', name)
+print('Idade: ', age) 
+print('Peso: ', weight)
+print('\n')
